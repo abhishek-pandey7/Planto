@@ -5,7 +5,7 @@ import ProductCard from '../ui/ProductCard';
 
 export default function TopSelling() {
   return (
-    <section className="h-screen min-h-[900px] flex flex-col justify-center relative overflow-hidden">
+    <section className="relative py-20 lg:py-0 lg:h-screen lg:min-h-[900px] flex flex-col justify-center overflow-hidden">
       <div className="section-container max-w-6xl w-full mx-auto flex flex-col justify-center h-full pt-12">
         <div className="text-center mb-24 relative flex items-center justify-center shrink-0">
           <div className="absolute w-6 h-10 border-t-2 border-b-2 border-l-2 border-white/60 left-1/2 -translate-x-[150px] md:-translate-x-[180px]" />
