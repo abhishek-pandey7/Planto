@@ -24,7 +24,7 @@ export default function TrendyPlants() {
             className="relative w-full max-w-4xl mx-auto bg-gradient-to-b from-white/10 to-transparent backdrop-blur-[20px] border border-white/20 rounded-[40px] md:rounded-[60px] p-8 md:p-12 flex flex-col md:flex-row items-center md:items-stretch min-h-[250px]"
           >
             {/* Image overflowing on left */}
-            <div className="relative md:absolute md:-left-32 md:-bottom-12 w-[320px] md:w-[550px] h-[350px] md:h-[550px] -mt-32 md:mt-0 z-10 pointer-events-none">
+            <div className="relative md:absolute md:-left-32 md:-bottom-12 w-[260px] md:w-[550px] h-[260px] md:h-[550px] -mt-20 md:mt-0 mx-auto md:mx-0 z-10 pointer-events-none">
               <Image 
                 src="/Rose Gold Feminine Calligraphy Monogram Logo(15) 1.png" 
                 alt="For Small Decs Ai Plat" 
@@ -77,7 +77,7 @@ export default function TrendyPlants() {
             </div>
 
             {/* Image overflowing on right */}
-            <div className="relative md:absolute md:-right-24 md:-bottom-24 w-[300px] md:w-[500px] h-[350px] md:h-[550px] -mb-16 md:mb-0 z-10 pointer-events-none">
+            <div className="relative md:absolute md:-right-24 md:-bottom-24 w-[260px] md:w-[500px] h-[260px] md:h-[550px] -mb-12 md:mb-0 mx-auto md:mx-0 z-10 pointer-events-none">
               <Image 
                 src="/Rose Gold Feminine Calligraphy Monogram Logo(15) 2 (1).png" 
                 alt="For Fresh Decs Ai Plat" 
