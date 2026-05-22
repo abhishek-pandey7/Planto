@@ -81,15 +81,15 @@ export default function Hero() {
         </div>
 
         {/* Right Column: Plant Card Gallery */}
-        <div className="flex justify-end items-center relative">
+        <div className="flex justify-end items-center relative w-full">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.6 }}
-            className="relative w-[340px] md:w-[380px] bg-gradient-to-b from-white/10 to-transparent backdrop-blur-[20px] border border-white/20 rounded-[40px] p-8 pt-56 flex flex-col mt-40 lg:mt-0"
+            className="relative w-full max-w-[340px] md:max-w-none md:w-[380px] bg-gradient-to-b from-white/10 to-transparent backdrop-blur-[20px] border border-white/20 rounded-[40px] p-8 pt-56 flex flex-col mt-40 lg:mt-0 mx-auto lg:mx-0"
           >
             {/* Pop-out Image Gallery */}
-            <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-[350px] md:w-[450px] h-[450px] md:h-[500px]">
+            <div className="absolute -top-24 md:-top-32 left-1/2 -translate-x-1/2 w-[260px] md:w-[450px] h-[350px] md:h-[500px]">
               <AnimatePresence mode="wait">
                 <motion.div
                   key={currentSlide}
